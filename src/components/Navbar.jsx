@@ -32,6 +32,7 @@ export default function Navbar() {
           ))}
         </ul>
 
+        {/**Right side nav bar for mobile and small devices. */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img 
           src={!toggle ? menu : close} alt='menu' 
@@ -53,6 +54,7 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
+        {/**End of right side Nav bar for mobile and small devices */}
       </div>
     </nav>
   )
