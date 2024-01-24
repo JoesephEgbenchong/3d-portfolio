@@ -55,6 +55,7 @@ export default function ComputersCanvas () {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     }
   }, [])
+  
   return (
     <Canvas 
       frameLoop='demand'
