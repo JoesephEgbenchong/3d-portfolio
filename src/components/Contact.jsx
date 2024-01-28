@@ -9,6 +9,10 @@ import { slideIn } from '../utils/motion'
 
 import { styles } from '../styles'
 
+///template_jdd3tnf
+//service_4l7hdf3
+//AbUg960zPr81cA-jM
+
 function Contact() {
   const formRef = useRef();
 
@@ -20,9 +24,44 @@ function Contact() {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_4l7hdf3',
+      'template_jdd3tnf',
+      {
+        from_name: form.name,
+        to_name: 'Joseph',
+        from_email: form.email,
+        to_email: 'egbenchongjosephayuk@gmail.com',
+        message: form.message,
+      },
+      'AbUg960zPr81cA-jM'
+    ).then(() => {
+      setLoading(false);
+      alert("Thank You! I will get back to you ASAP");
+
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      })
+    }, (error) => {
+      setLoading(false);
+
+      console.log(error);
+
+      alert('SOmething went wrong.')
+    })
+  };
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
