@@ -15,14 +15,18 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    orange,
+    antic,
+    vodafone,
+    filparty,
     carrent,
     jobit,
     tripguide,
     threejs,
+    businessCard,
+    hoobank,
+    ohvaz,
+    realtor,
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Product Designer",
       icon: creator,
     },
   ];
@@ -116,55 +120,59 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "PHP Developer",
+      company_name: "Orange Cameroun",
+      icon: orange,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jun 2015 - Sep 2015",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Pioneered a PHP-based web tool revolutionizing field operations' ticketing system.",
+        "Introduced features that streamlined ticket processes and boosted overall efficiency.",
+        "Optimized workforce deployment, cutting operational costs.",
+        "Improved customer experience with prompt issue resolution.",
+        "Monitored KPIs, showcasing increased customer satisfaction levels.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Android & PHP Developer",
+      company_name: "ANTIC Cameroun",
+      icon: antic,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2016 - Jul 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed Android and Web Apps to establish a robust framework for verifying Mobile Operators' Quality of Services.",
+        "Enabled users to assess service quality seamlessly through mobile and desktop platforms.",
+        "Enabled stakeholders to make informed decisions based on accurate and real-time data.",
+        "Implemented tools that offer actionable insights to Mobile Operators for strategic service quality improvements.",
+        "Contributed to the enhancement of overall user experience and satisfaction.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "MEAN Stack & Python Developer",
+      company_name: "Vodafone Cameroun",
+      icon: vodafone,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2017 - Dec 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Co-created RANALYZER, a real-time monitoring tool for Vodafone Cameroon's network sites.",
+        "Streamlined data handling processes, improving efficiency in information extraction.",
+        "Enhanced decision-making by providing immediate insights into network performance.",
+        "Programmed scripts for automated and efficient processing of Core Network data.",
+        "Contributed to the seamless integration of data analytics into the network management workflow.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Web3 & Blockchain Developer",
+      company_name: "Filparty",
+      icon: filparty,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with a team to successfully implement a layer-2 blockchain on the Ethereum network.",
+        "Enhanced scalability and efficiency for decentralized applications.",
+        "Developed and implemented faucets to provide easy access to tokens for contributors.",
+        "Orchestrated airdrop campaigns to distribute tokens to community members.",
+        "Strengthened community engagement and fostered a sense of inclusivity among contributors."
       ],
     },
   ];
@@ -198,16 +206,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "HooBank",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based platform offering a streamlined solution for financial transactions, providing users with efficient and user-friendly tools for managing their banking needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react-router",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +223,71 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: hoobank,
+      source_code_link: "https://github.com/JoesephEgbenchong/hoobank-jsmastery",
     },
     {
-      name: "Job IT",
+      name: "Business Card",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A business card crafted through the execution of BigDevSoon's Junior Frontend Coding Challenge, showcasing polished representation of your professional identity.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind-animated",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: businessCard,
+      source_code_link: "https://github.com/JoesephEgbenchong/business-card",
     },
     {
-      name: "Trip Guide",
+      name: "Ohvaz Clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web-based realization of the optimized version of a Romanian website, meticulously crafted based on the Figma design, ensuring a seamless and enhanced online experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react-router",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ohvaz,
+      source_code_link: "https://github.com/JoesephEgbenchong/ohvaz-clone-react",
+    },
+    {
+      name: "Realtor clone react",
+      description:
+        "A a web-based implementation of a realtor website, to seamlessly manage house listings and facilitate the process of renting or purchasing real estate properties.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: realtor,
+      source_code_link: "https://github.com/JoesephEgbenchong/realtor-clone-react",
     },
   ];
   
