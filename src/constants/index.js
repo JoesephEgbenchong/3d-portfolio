@@ -27,6 +27,8 @@ import {
     hoobank,
     ohvaz,
     realtor,
+    max,
+    basil,
   } from "../assets";
   
   export const navLinks = [
@@ -189,18 +191,18 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Joseph does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Mekwi Basil",
+      designation: "ISA",
+      company: "Hanyang University",
+      image: basil,
     },
     {
       testimonial:
         "After Joseph optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Max BENANA",
+      designation: "Digital Consultant",
+      company: "MBWAN",
+      image: max,
     },
   ];
   

@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import max from "./max_mbwan.jpg";
+import basil from "./basil.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -45,6 +47,8 @@ export {
   github,
   menu,
   close,
+  max,
+  basil,
   css,
   docker,
   figma,
