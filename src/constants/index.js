@@ -19,9 +19,6 @@ import {
     antic,
     vodafone,
     filparty,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     businessCard,
     hoobank,
@@ -184,8 +181,8 @@ import {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Joseph proved me wrong.",
       name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      designation: "UX Designer",
+      company: "Freelance",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
@@ -200,7 +197,7 @@ import {
       testimonial:
         "After Joseph optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Max BENANA",
-      designation: "Digital Consultant",
+      designation: "Security Consultant",
       company: "MBWAN",
       image: max,
     },

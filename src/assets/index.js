@@ -29,9 +29,7 @@ import antic from "./company/antic.jpg";
 import vodafone from "./company/vodafone.jpg";
 import filparty from "./company/filparty.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import businessCard from "./businessCard.PNG";
 import hoobank from "./hoobank.PNG";
 import ohvaz from "./ohvaz.PNG";
@@ -66,9 +64,6 @@ export {
   antic,
   vodafone,
   filparty,
-  carrent,
-  jobit,
-  tripguide,
   businessCard,
   hoobank,
   ohvaz,

@@ -134,6 +134,14 @@ function Contact() {
           <FaXTwitter className={`${styles.socialMedia}`} onClick={() => window.open("https://twitter.com/JosephAyu2",'_blank')}/>
         </div>
 
+        <div className='justify-center mt-8'>
+          <a href="https://www.buymeacoffee.com/egbenchongII">
+              <img src="https://img.buymeacoffee.com/button-api/?text=Buy 
+              me a coffee&emoji=&slug=egbenchongII&button_colour=FFDD00&
+              font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" />
+          </a>
+        </div>
+
       </motion.div>
 
       <motion.div 
