@@ -33,7 +33,8 @@ import filparty from "./company/filparty.png";
 import businessCard from "./businessCard.PNG";
 import hoobank from "./hoobank.PNG";
 import ohvaz from "./ohvaz.PNG";
-import realtor from "./realtor.PNG"
+import realtor from "./realtor.PNG";
+import brainwave from "./brainwave.PNG";
 
 
 export {
@@ -68,4 +69,5 @@ export {
   hoobank,
   ohvaz,
   realtor,
+  brainwave,
 };

@@ -26,6 +26,7 @@ import {
     realtor,
     max,
     basil,
+    brainwave,
   } from "../assets";
   
   export const navLinks = [
@@ -288,6 +289,26 @@ import {
       image: realtor,
       source_code_link: "https://github.com/JoesephEgbenchong/realtor-clone-react",
     },
+    {
+      name: "Brainwave",
+      description: "Modern UI/UX website, Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react-scroll-parallax",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: brainwave,
+      source_code_link: "https://github.com/JoesephEgbenchong/brainwave",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
