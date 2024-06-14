@@ -27,6 +27,9 @@ import {
     max,
     basil,
     brainwave,
+    mbwanConsulting,
+    imaginify,
+    evently,
   } from "../assets";
   
   export const navLinks = [
@@ -308,6 +311,86 @@ import {
       ],
       image: brainwave,
       source_code_link: "https://github.com/JoesephEgbenchong/brainwave",
+    },
+    {
+      name: "MBWAN Consulting",
+      description: "Landing Page of an IT Agency, implemented for exposure and designed to improve conversion rate. Was fully Responsible for the design and the Implementation",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "emailjs",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: mbwanConsulting,
+      source_code_link: "https://mbwan-consulting.vercel.app/",
+    },
+    {
+      name: "Imaginify",
+      description: "Fullstack AI SaaS platform for image processing using Cloudinary's API for Image Processing. It implements a Freemium business model where a user is granted a limited number of credits which are deducted for each image processing request.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "tailwind/Shadcn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "CloudinaryAI",
+          color: "orange-text-gradient"
+        },
+        {
+          name: "Stripe",
+          color: "blue-text-gradient"
+        }
+      ],
+      image: imaginify,
+      source_code_link: "https://github.com/JoesephEgbenchong/imaginify",
+    },
+    {
+      name: "Evently",
+      description: "Your Events, Our Platform. A Fullstack Event management platform where users can host events and sell tickets or places.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "tailwind/Shadcn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "uploadThings",
+          color: "orange-text-gradient"
+        },
+        {
+          name: "Stripe",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "NotchPay",
+          color: "green-text-gradient"
+        }
+      ],
+      image: evently,
+      source_code_link: "https://github.com/JoesephEgbenchong/evently",
     }
   ];
   

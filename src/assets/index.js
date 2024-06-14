@@ -35,6 +35,9 @@ import hoobank from "./hoobank.PNG";
 import ohvaz from "./ohvaz.PNG";
 import realtor from "./realtor.PNG";
 import brainwave from "./brainwave.PNG";
+import mbwanConsulting from "./mbwanConsulting.PNG";
+import evently from "./evently.PNG";
+import imaginify from "./imaginify.PNG";
 
 
 export {
@@ -70,4 +73,7 @@ export {
   ohvaz,
   realtor,
   brainwave,
+  mbwanConsulting,
+  evently,
+  imaginify
 };

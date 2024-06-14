@@ -127,7 +127,6 @@ function Contact() {
           <div className='md:w-[40%] w-[30%] border-[1px] border-secondary h-0'></div>
         </div>
         
-
         <div className='flex flex-wrap gap-6 items-center justify-center'>
           <FaWhatsapp className={`${styles.socialMedia}`} onClick={() => window.open("https://wa.me/237670393007",'_blank')} />
           <FaLinkedin className={`${styles.socialMedia}`} onClick={() => window.open("https://www.linkedin.com/in/joseph-ayuk-egbenchong-ii-717a6a116/",'_blank')} />
